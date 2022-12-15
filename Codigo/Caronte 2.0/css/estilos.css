@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgba(0,0,0,.2);
+}
+
+@media screen and (min-width: 0px){
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+    header nav#sociales{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    
+    }
+    header nav#contacto{
+    display: none;
+    }
+    header figure{
+    height: 100px;
+    }
+    header h1{
+    width: 60%;
+    color: white;
+    
+    }
+    header button{
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    }
+    header #principal {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 95%;
+    }
+    header #principal a{
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    }
+    header #principal a span{
+        font-size: 25px;
+    }
+    header #principal a i{
+        display: none;
+    }    
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header figure img{
+        height: 90%;
+    }
+    header figure h1{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 650px){
+    header {
+        background-color: black;
+        display: flex;
+        flex-flow: row wrap;
+        height: 300px;
+    
+    }
+    header nav#contacto{
+        display: flex;
+        height: 25px;
+        align-items: flex-end;
+        
+        align-items: center;
+        background-color: white;
+        width: 100%;
+    }
+    header nav#sociales{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav#sociales a{
+        padding: 12px;
+        font-size: 20px;
+    }
+    header nav#principal a i{
+        color: green;
+    }
+    header nav#principal span{
+        font-size: 20px;
+        font-family: Satisfy;
+    }
+    header button{
+        display: none;
+    }
+    header nav#principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header #principal a i{
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+    } 
+    header #principal a{
+        border: none;
+    }
+    header #principal a i:hover{
+        color: blue;
+        transform: scale(1.09);
+        transform: translateY(-40px);
+        
+    }
+    header figure{
+    margin-left: 190px;
+   
+    }
+    header #trabajos{
+        
+        display: flex;
+        margin-top: 25px;
+        justify-content: flex-start;
+        height: 60px;
+        width: 50%;
+        background-color:orange;
+        align-items: center;
+    }
+    header #trabajos2{
+        display: flex;
+        align-items: center;
+        height: 60px;
+        margin-top: 25px;
+        width: 50%;
+        background-color:orange;
+        justify-content: center;
+    }
+    header figure h4{
+        display: none;
+    }
+    header #trabajos2 a{
+        color: blue;
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    header{
+        display: flex;
+        flex-flow:row wrap ;
+        /* height: 300px; */
+    
+    }
+    header nav#contacto{
+        width: 50%;
+        height: 50px;
+
+    }
+    header nav#sociales{
+        width: 50%;
+        height: 50px;
+        align-items: center;
+    }
+    header figure{
+        width: 14%;
+        margin-left: 10px;
+    
+        
+
+
+    
+    }
+    header h1{
+        display: none;
+    }
+    header #principal{
+        width: 80%;
+        border:1px solid red;
+        /* height: 80px; */
+
+    }
+    main #nav{
+    
+    
+    }
+    header figure h4{
+        display: flex;
+        color: aliceblue;
+    }
+
+}

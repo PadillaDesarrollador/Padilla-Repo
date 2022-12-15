@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+header #contacto{
+background-color: rgba(0,0,0, .1);
+height: 30%;
+width: 80%;
+background-color: rgba(0,0,0, .1);
+display: flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+align-items: center;
+}
+header #contacto a{
+font-size: 18px;
+text-decoration: none;
+border: 0px solid black;
+padding: 5px;
+color: black;
+margin-right: 10px;
+}
+header #contacto a:nth-child(1) {
+    margin-left: 10px;
+    background-color: green;
+}
+header #redes{
+    height: 30%;
+    width: 20%;
+    background-color: rgba(0,0,0, .1);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header #redes a {
+    color: black;
+    font-size: 25px;
+}
+header figure {
+    height: 70%;
+    background-color:black;
+    width: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header figure img {
+    height: 60%;
+}
+header figure h3 {
+    color: white;
+}
+header #principal{
+    background-color:black;
+    width: 100%;
+    order: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header #principal a {
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;    
+    border: 0px solid white;
+}
+header #principal a p {
+    order:2;
+    font-size: 20px;
+    font-family: Satisfy;
+    color: white;
+    transition: all 1s;
+}
+header #principal a:hover i {
+    color: red;
+    transform: scale(1) translateY(30px);
+    order: 1;
+}
+header #principal a:nth-child(1) p {
+    order: 1;
+}
+header #principal a:nth-child(1) i {
+    order: 2;
+}
+header #principal a i {
+    order: 1;
+    font-size: 40px;
+    color: green;
+    padding-bottom: 5px;
+    transition: all 1s;
+}
+header #principal a:hover p {
+    color: blue;
+    transform: translateY(-40px);
+}
+header #secundario{
+background-color: yellow;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+order: 3;
+} 
+header #secundario h2{
+    justify-content: ;
+}
+header #principal a:hover span {
+    color: blue;
+    transform: translateY(-40px);
+    order: 1;
+}
